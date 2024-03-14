@@ -228,3 +228,12 @@ exercises.c:80:5: error: continue statement not within a loop
       |     ^~~~~~~~
 Compilation failed
 b1c5e86
+Thu 14 Mar 2024 03:40:32 AM UTC: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+Thu 14 Mar 2024 03:43:06 AM UTC: 
+ exercises.c | 11 -----------
+ 1 file changed, 11 deletions(-)
+ tests:  0|1
+total_score: 60/70
+f173539
