@@ -190,3 +190,17 @@ Thu 14 Mar 2024 01:56:46 AM UTC:
  tests:  0|0
 total_score: 60/70
 140fab0
+Thu 14 Mar 2024 03:23:45 AM UTC: 
+ exercises.c | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘crearListaEnlazada’:
+exercises.c:156:26: error: ‘temp’ undeclared (first use in this function)
+  156 |   Nodo *cabeza = NULL ; *temp = NULL ; *actual = NULL;
+      |                          ^~~~
+exercises.c:156:26: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:156:41: error: ‘actual’ undeclared (first use in this function)
+  156 |   Nodo *cabeza = NULL ; *temp = NULL ; *actual = NULL;
+      |                                         ^~~~~~
+Compilation failed
+497131f
