@@ -105,3 +105,16 @@ Thu 14 Mar 2024 01:07:10 AM UTC:
  tests:  0|4
 total_score: 30/70
 768e548
+Thu 14 Mar 2024 01:19:22 AM UTC: 
+ exercises.c | 15 ++++-----------
+ 1 file changed, 4 insertions(+), 11 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:75:10: error: expected ‘;’ before ‘}’ token
+   75 |       i++
+      |          ^
+      |          ;
+   76 |     }
+      |     ~     
+Compilation failed
+1efda0e
