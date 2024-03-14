@@ -215,3 +215,16 @@ Thu 14 Mar 2024 03:34:36 AM UTC:
  tests:  0|1
 total_score: 60/70
 a763977
+Thu 14 Mar 2024 03:39:58 AM UTC: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:75:5: error: continue statement not within a loop
+   75 |     continue;
+      |     ^~~~~~~~
+exercises.c:80:5: error: continue statement not within a loop
+   80 |     continue;
+      |     ^~~~~~~~
+Compilation failed
+b1c5e86
