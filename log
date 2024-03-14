@@ -9,3 +9,17 @@ Wed 13 Mar 2024 02:02:39 AM UTC:
  tests:  0|6
 total_score: 10/70
 ad7e13f
+Thu 14 Mar 2024 12:34:29 AM UTC: 
+ exercises.c | 28 ++++++++++++++++++++++++++--
+ 1 file changed, 26 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+test.c: In function ‘filterEvenNumbers’:
+exercises.c:45:19: error: ‘nuevoArr’ is used uninitialized [-Werror=uninitialized]
+   45 |   int *nuevoArr = realloc(nuevoArr, sizeof(int) * *newSize);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercises.c:53:23: error: ‘nuevoArr’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   53 |       int *nuevoArr = realloc(nuevoArr, sizeof(int) * *newSize);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+3045025
