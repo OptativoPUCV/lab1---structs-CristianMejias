@@ -44,3 +44,14 @@ exercises.c:51:15: error: array subscript is not an integer
       |               ^
 Compilation failed
 07192e2
+Thu 14 Mar 2024 12:45:30 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:54:23: error: ‘nuevoArr’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   54 |       int *nuevoArr = realloc(nuevoArr, sizeof(int) * *newSize);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+6704f11
